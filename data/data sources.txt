@@ -1,0 +1,19 @@
+1. Climate
+https://acis.alberta.ca/township-data-viewer.jsp
+
+https://climate-change.canada.ca/climate-data/#/hourly-climate-data
+
+
+
+2. Electricity data
+The Alberta Electric System Operator (AESO) is committed to playing a leadership role in enabling the transformation of the province's electricity sector while ensuring reliable, affordable power is always available to Albertans.​
+
+https://public.tableau.com/app/profile/market.analytics/viz/AnnualStatistics_16161854228350/Introduction
+
+https://www.aeso.ca/aeso/library#mapsanddata
+
+3. Population
+https://regionaldashboard.alberta.ca/region/edmonton/population/#/?from=2014&to=2023
+https://regionaldashboard.alberta.ca/region/calgary/population/#/?from=2014&to=2023
+
+

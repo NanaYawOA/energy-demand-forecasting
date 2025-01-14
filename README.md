@@ -93,7 +93,7 @@ Access the app: Open your browser and navigate to http://127.0.0.1:5000.
 - [Historical population data,2015- 2024](https://regionaldashboard.alberta.ca/region/calgary/population/#/?from=2014&to=2023)
 - [Historical electricity demand, 2015-2024](https://public.tableau.com/app/profile/market.analytics/viz/AnnualStatistics_16161854228350/Introduction)
 - Relevant data was extracted and processed to obtain two datasets for the cities of Calgary and Edmonton respectively, providing Climate, Population and Electricity demand information.
-- The cleaned supervised dataset has the follow properties:
+- The cleaned labelled dataset has the follow properties:
   - 17 features of which 7 were used in training ML models
   - 86928 rows of data for each city   
 ### ML Model selection and training:
@@ -103,6 +103,7 @@ Access the app: Open your browser and navigate to http://127.0.0.1:5000.
 - From the above table it is clear that the XGBoost regressor is the best training model since for both datasets it has the lowest RMSE(Root Mean Squared Error) and the highest R Square of 0.88. This R Squared value implies that 88% of the variance in the dependent variable is explained by the model hence the model does a good job of understanding the relationship between the independent and dependent variables.
 - XGBoost regressor model ranks second best in terms of the time required to train the model, but outclasses all the other models in terms of accuracy.
 - By this analysis the best ML model for deployment of the energy demand forecasting webapp is the XGboost regressor.
+  
 ![image](https://github.com/user-attachments/assets/a69553a2-c95c-4b34-845f-5a269cfbc2da)
 
 ---
